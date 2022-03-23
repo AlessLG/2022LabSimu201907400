@@ -26,6 +26,8 @@ Compilado:      gcc -o $nombre.out $nombre.c
 Fecha:          $(date +%D)
 Librerias:      stdio
 Resumen:        $resumen
+Entradas:       $entrada
+Salidas:        $salida
 */
 
 //Librerias
