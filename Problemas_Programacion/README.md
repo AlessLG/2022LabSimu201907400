@@ -24,8 +24,8 @@ $ ./problema2.c
 ### Variables de entrada:
 ### Compilación y ejecución:
 ```
-$ gcc -o problema1.out problema1.c
-$ ./problema1.c
+$ gcc -o problema3.out problema3.c
+$ ./problema3.c
 ```
 
 ## Problema 4
@@ -33,8 +33,8 @@ $ ./problema1.c
 ### Variables de entrada:
 ### Compilación y ejecución:
 ```
-$ gcc -o problema1.out problema1.c
-$ ./problema1.c
+$ gcc -o problema4.out problema4.c
+$ ./problema4.c
 ```
 
 ## Problema 5
@@ -42,6 +42,15 @@ $ ./problema1.c
 ### Variables de entrada:
 ### Compilación y ejecución:
 ```
-$ gcc -o problema1.out problema1.c
-$ ./problema1.c
+$ gcc -o problema5.out problema5.c
+$ ./problema5.c
+```
+
+## Problema 
+![Problema5](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P.png)
+### Variables de entrada:
+### Compilación y ejecución:
+```
+$ gcc -o problema.out problema.c
+$ ./problema.c
 ```
