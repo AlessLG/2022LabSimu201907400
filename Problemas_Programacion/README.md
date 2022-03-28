@@ -14,7 +14,7 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
 ## Problema 2
 ![Problema2](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P2.png)
 ### Variables de entrada:
-    n: Contador de números ingresados (mayores o iguales a cero)
+    n: Contador de números ingresados.
     x: Almacena temporalmete el número ingresado.
     med: Almacena la suma de los números ingresados (mayores o iguales a cero).
     min: Almacena el número de menor valor.
