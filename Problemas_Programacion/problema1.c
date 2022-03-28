@@ -10,3 +10,24 @@ Resumen:        El programa lee tres números reales ingresados por el usuario y
 
 //Librerias
 #include <stdio.h>
+
+int main() {
+    int n=0, i=0;                       // Se incian las variables enteras.
+    float x=0, media=0;                 // Se incian las flotantes.
+    while (i<3) {                       // Se incia el while que contará cuantos números se han ingresado.
+        puts("Ingrese un número");      
+        scanf("%f", &x);
+        if (x>=0) {                     // Si el número que se ingreso es mayor o igual a cero:
+            n++;                        // se aumenta el contador de cuántos números *positivos* se han ingresado...
+            media+=x;                   // ...se "guarda" la sumatoria de los números positivos.
+        }
+        i++;                            // Se aumenta el contador de cuantos números se han ingresado.
+    }
+    if (n==0) {                          // Si el número de positivos es cero se imprime el siguiente mensaje.
+        puts("No positivos");
+    }
+    else {                              // De lo contrario, se calcula la media.
+        printf("La media es: %f \n", media/n);
+    }
+return 0;
+}
