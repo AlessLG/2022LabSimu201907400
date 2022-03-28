@@ -21,9 +21,9 @@ int main() {
             n++;                        // se aumenta el contador de cuántos números *positivos* se han ingresado...
             media+=x;                   // ...se "guarda" la sumatoria de los números positivos.
         }
-        i++;                            // Se aumenta el contador de cuantos números se han ingresado.
+        i++;                            // Independientemente de si se cumpla el if, se aumenta el contador de cuantos números se han ingresado.
     }
-    if (n==0) {                          // Si el número de positivos es cero se imprime el siguiente mensaje.
+    if (n==0) {                         // Si el número de positivos es cero se imprime el siguiente mensaje.
         puts("No positivos");
     }
     else {                              // De lo contrario, se calcula la media.
