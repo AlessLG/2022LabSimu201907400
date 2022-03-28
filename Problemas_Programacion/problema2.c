@@ -12,28 +12,28 @@ Resumen:        El programa lee un número indeterminado de alturas y termina ha
 #include <stdio.h>
 
 int main() {
-    int n=0;                                    // Inicializamos variables
+    int n=0;                                    // 1. Inicializamos variables
     float x=0, med=0, max=0, min=0;
-    puts("Ingrese una altura");
-    scanf("%f", &x);                            // Leemos lo escrito y lo asignamos a la variable x. La cual servirá para almacenar las alturas.
-    max=x;                                      // Asignamos el valor de x a las variables max y min.
+    puts("Ingrese una altura");                 // 2. Le pedimos al usuario que ingrese una altura...
+    scanf("%f", &x);                            //    ...y se la asignamos a la variable x.
+    max=x;                                      // 3. Asignamos x como valor de las variables max y min. Para luego tener algo con qué compararlas.
     min=x;
-        while (x>=0) {                          // Si la altura ingresada es mayor o igual a cero, entramos al siguiente ciclo
-            n++;                                // Se suma "1" al contador de números positivos ingresados.
-            med+=x;                             // Se suma el valor de la variable x a la variable med
-            if (x>max) {                        // 
+        while (x>=0) {                          // 4. Entramos al siguiente ciclo si la altura ingresada es mayor o igual a cero.
+            n++;                                // 5. Acumulamos los datos de conteo y media para su uso al final.
+            med+=x;
+            if (x>max) {                        // 6. Comparamos si el valor ingresado es mayor al máximo. Si sí, será el nuevo max.
                 max=x;
             }
-            if (x<min) {
+            if (x<min) {                        // 7. Comparamos si el valor ingresado es menor al mínimo. Si sí, será el nuevo min.
                 min=x;
             }
-            puts("Ingrese otra altura");
+            puts("Ingrese otra altura");        // 8. Se pide otra altura para que se puedan hacer nuevamente las comparaciones en este bucle.
             scanf("%f", &x);
         }
-        if (n==0) {
+        if (n==0) {                             // 9. Al ingresar una altura negativa, validamos que se haya ingresado al menos una mayor o igual a cero.
             puts("No positivos");
         }
-        else {
+        else {                                  // 10. Si sí se ingresó al menos una mayor o igual a cero, se imprimen los resultados.
             printf("La media es: %.2f \n", med/n);
             printf("El valor máximo es: %.2f \n", max);
             printf("El valor mínimo es: %.2f \n", min);
