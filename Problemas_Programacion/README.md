@@ -4,29 +4,24 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
 ## Problema 1
 ![Problema1](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P1.png)
 ### Variables de entrada:
+    i = Contador de números ingresados
+    n = Contador de números positivos ingresados.
+    x = Almacena temporalmente el número ingresado.
+    media = Almacena la suma de los números ingresados.
 ### Compilación y ejecución:
-```
-$ gcc -o problema1.out problema1.c
-$ ./problema1.c
-```
+    $ gcc -o problema1.out problema1.c && ./problema1.out
 
 ## Problema 2
 ![Problema2](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P2.png)
 ### Variables de entrada:
 ### Compilación y ejecución:
-```
-$ gcc -o problema2.out problema2.c
-$ ./problema2.c
-```
+    $ gcc -o problema2.out problema2.c && ./problema2.out
 
 ## Problema 3
 ![Problema3](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P3.png)
 ### Variables de entrada:
 ### Compilación y ejecución:
-```
-$ gcc -o problema3.out problema3.c
-$ ./problema3.c
-```
+    $ gcc -o problema3.out problema3.c && ./problema3.out
 
 ## Problema 4
 ![Problema4](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P4.png)
