@@ -25,6 +25,8 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
 ## Problema 3
 ![Problema3](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P3.png)
 ### Variables de entrada:
+    n: Entero positivo al que se le calculará su "raíz"
+    r: Entero positivo que aproximará a la raíz.
 ### Compilación y ejecución:
     $ gcc -o problema3.out problema3.c && ./problema3.out
 
