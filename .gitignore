@@ -1,5 +1,5 @@
 # Ignorar la carpeta Imagenes
-# /Problemas_Programacion/Imagenes
+/Problemas_Programacion/Imagenes
 
 # Ignorar archivos .out de la carpeta de Problemas_Programacion
 /Problemas_Programacion/problema1.out
