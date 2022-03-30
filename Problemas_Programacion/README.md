@@ -33,11 +33,11 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
 ## Problema 4
 ![Problema4](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P4.png)
 ### Variables de entrada:
+    n: Contiene el número ingresado
+    i: Se usa para los cálculos
+    primo: 
 ### Compilación y ejecución:
-```
-$ gcc -o problema4.out problema4.c
-$ ./problema4.c
-```
+    $ gcc -o problema4.out problema4.c && ./problema4.out
 
 ## Problema 5
 ![Problema5](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P5.png)
