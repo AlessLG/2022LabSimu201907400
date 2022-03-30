@@ -11,9 +11,12 @@ Resumen:        Este programa lee un número mayor que 1 ingresado por el usuari
 #include <stdio.h>
 
 int main() {
-    int n=0, i=0, primo=0;
-    puts("Ingrese el número a determinar si es primo o no:");
-    scanf("%d", &n);
+    int n, i, primo;
+    do
+    {
+        puts("Ingrese el número a determinar si es primo o no (debe ser mayor a 1):");
+        scanf("%d", &n);
+    } while (n<=1);
     i=2;
     primo=1;
     while( i<(n-1) && primo==1 ) {
