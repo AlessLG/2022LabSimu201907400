@@ -34,8 +34,8 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
 ![Problema4](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P4.png)
 ### Variables de entrada:
     n: Contiene el número ingresado
-    i: Se usa para los cálculos
-    primo: 
+    i: Cambia su valor progresivamente para poder obtener el residuo de (n) con distintos números.
+    primo: Vale 1 si el número es primo y 0 si no.
 ### Compilación y ejecución:
     $ gcc -o problema4.out problema4.c && ./problema4.out
 
