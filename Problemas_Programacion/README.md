@@ -43,16 +43,4 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
 ![Problema5](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P5.png)
 ### Variables de entrada:
 ### Compilación y ejecución:
-```
-$ gcc -o problema5.out problema5.c
-$ ./problema5.c
-```
-
-## Problema 
-![Problema5](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P.png)
-### Variables de entrada:
-### Compilación y ejecución:
-```
-$ gcc -o problema.out problema.c
-$ ./problema.c
-```
+    gcc -o problema5.out problema5.c && ./problema5.out
