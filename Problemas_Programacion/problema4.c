@@ -4,14 +4,15 @@ Fecha:          03/29/22
 Compilador:     gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
 Compilado:      gcc -o problema4.out problema4.c && ./problema4.out
 Librerias:      stdio
-Resumen:        Este programa lee un número mayor que 1 ingresado por el usuario y determina si es primo.
+Resumen:        Este programa lee un número mayor que 1 ingresado por el usuario y determina si es primo. Nota importante: En este código,
+                el número (n) es primo hasta que se demuestre lo contrario.
 */
 
 //Librerias
 #include <stdio.h>
 
 int main() {
-    int n, i=2, primo=1;                // 1. Inicializamos variables. En este código, el número (n) es primo hasta que se demuestre lo contrario.
+    int n, i=2, primo=1;                // 1. Inicializamos variables.
     do {                                // 2. El usuario entra en un ciclo del cual solo puede salir si ingresa un número mayor a 1.
         puts("Ingrese el número a determinar si es primo o no (debe ser mayor a 1):");
         scanf("%d", &n);
