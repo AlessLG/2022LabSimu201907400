@@ -7,10 +7,9 @@ Librerias:      stdio
 Resumen:        Este programa lee dos números enteros, los cuales usa como rango para imprimir todos los números primos en ese rango.
 */
 
-//Librerias
-#include <stdio.h>
+#include <stdio.h>                      // Librerías
 
-int n1, n2, i, j, primo;
+int n1, n2, i, j, primo;                
 
 int es_primo(int i, int j);
 
