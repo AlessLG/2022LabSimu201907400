@@ -42,5 +42,10 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
 ## Problema 5
 ![Problema5](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P5.png)
 ### Variables de entrada:
+    n1: Número entero positivo que define el principio del rango.
+    n2: Número entero positivo que define el final del rango.
+    i: Variable de conteo que sirve para encontrar los números primos.
+    j: Cambia su valor progresivamente para poder obtener el residuo de (i) con distintos números.
+    primo: Vale 1 si el número es primo y 0 si no.
 ### Compilación y ejecución:
     gcc -o problema5.out problema5.c && ./problema5.out
