@@ -10,4 +10,4 @@ Resumen:            Obtenemos la información del clima e imprimimos las primera
                     del archivo temporal.
 Header
 
-( curl -s wttr.in/Guatemala |  head -n 7 )
+curl -s wttr.in/Guatemala |  head -n 7
