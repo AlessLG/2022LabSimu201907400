@@ -7,3 +7,7 @@
 /Problemas_Programacion/problema3.out
 /Problemas_Programacion/problema4.out
 /Problemas_Programacion/problema5.out
+/Problemas_Programacion/problema6.out
+
+# Ignorar el generador de archivos de C
+filegen.sh
