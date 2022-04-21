@@ -49,3 +49,16 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
     primo: Vale 1 si el número es primo y 0 si no.
 ### Compilación y ejecución:
     gcc -o problema5.out problema5.c && ./problema5.out
+
+## Problema 6
+![Problema6](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P6.png)
+### Variables de entrada:
+    FM: Contiene el número de vértices del polígono.
+    N: No es necesaria, pero facilita la comprensión de la matemática. Representa la longitud del arreglo, contando desde cero.
+### Variables de conteo:
+    fila: Para "movernos" por las filas del arreglo.
+    i: Para la sumatoria.
+### Variables de salida:
+    A: Guarda el valor de la sumatoria en todo momento.
+### Compilación y ejecución:
+    $ gcc -o problema4.out problema4.c && ./problema4.out
