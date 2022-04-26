@@ -9,3 +9,7 @@
 
 # Ignorar el generador de archivos de C
 filegen.sh
+
+# Ignorar el .gp y el .jpg
+/Segundo_Parcial/Grafica ex+x.jpg
+/Segundo_Parcial/graficadorP2.gp
