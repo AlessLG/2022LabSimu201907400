@@ -2,12 +2,10 @@
 /Problemas_Programacion/Imagenes
 
 # Ignorar archivos .out de la carpeta de Problemas_Programacion
-/Problemas_Programacion/problema1.out
-/Problemas_Programacion/problema2.out
-/Problemas_Programacion/problema3.out
-/Problemas_Programacion/problema4.out
-/Problemas_Programacion/problema5.out
-/Problemas_Programacion/problema6.out
+/Problemas_Programacion/*.out
+
+# Ignorar archivos .out de la carpeta de Segundo_Parcial
+/Segundo_Parcial/*.out
 
 # Ignorar el generador de archivos de C
 filegen.sh
