@@ -10,6 +10,11 @@
 # Ignorar el generador de archivos de C
 filegen.sh
 
-# Ignorar el .gp y el .jpg
-/Segundo_Parcial/Grafica ex+x.jpg
-/Segundo_Parcial/graficadorP2.gp
+# Ignorar archivos gnuplot momentaneamente
+/Segundo_Parcial/Grafica exp(x)+x.pdf
+/Segundo_Parcial/Grafica exp(x)+x.tex
+/Segundo_Parcial/*.jpg
+/Segundo_Parcial/*.gp
+
+/Segundo_Parcial/NewtonRaphsonMaynor.c
+/Segundo_Parcial/DatosP1
