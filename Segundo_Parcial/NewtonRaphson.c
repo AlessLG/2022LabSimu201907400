@@ -3,26 +3,71 @@ Autor:          aless
 Fecha:          04/25/22
 Compilador:     gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
 Compilado:      gcc -o NewtonRaphson.out NewtonRaphson.c -lm && ./NewtonRaphson.out
-Librerias:      stdio, math
+Librerias:      stdio, math, stdlib
 Resumen:        Este programa 
 */
 
-#include <math.h>
-#include <stdio.h>              //Librerias
+#include <math.h>                   // Librerías.
+#include <stdlib.h>
+#include <stdio.h>
 
-#define e 2.7182818284590452353602874
+float f(float x);
+float df(float x);
+float NewtonRaphson(float x, float e, int N);
+float absoluto(float x);
 
 int main() {
-    double x=1, res, y;
-    unsigned int j;
-    int i;
-    printf("Ingrese un número y: ");
-    scanf("%lf", &y);
-    printf("Ingrese el número de iteraciones que quiere hacer: ");
-    scanf("%d", &j);
-    for (i = 0; i < j+1; i++) {
-        x += x - (exp(x)+x-y)/(exp(x)+1);
+    float aprox, toler, resultNR;
+    int iter;
+    printf("Ingrese una aproximación para la raíz: ");
+    scanf("%f", &aprox);
+    do {
+        printf("Ingrese el valor de tolerancia (debe ser mayor a 0): ");
+        scanf("%f", &toler);
+    } while (toler <= 0);
+    do {
+        printf("Ingrese el máximo número de iteraciones que quiere hacer (debe ser mayor o igual a 1): ");
+        scanf("%d", &iter);
+    } while (iter < 1);
+    resultNR = NewtonRaphson(aprox, toler, iter);
+    printf("resultNR = %f, abs(resultNR) = %f\n", resultNR, absoluto(resultNR));
+    if (absoluto(resultNR) <= toler) {
+        printf("El resultado es: %f\n", resultNR);
     }
-    printf("El resultado es: %lf\n", x);
-return 0;
+    else {
+        printf("No hay solución luego de %d iteraciones\n", iter);
+    }
+    return 0;
+}
+
+float NewtonRaphson(float xant, float e, int N) {
+    float x;
+    int i=0;
+    printf("e = %f, N= %d\n", e, N);
+    while (i<N && f(x)<e) {
+        x = xant-f(xant)/df(xant);
+        xant = x;
+        i++;
+        printf("[%d.] x = %f,\tf(x)=%f\n", i, x, f(x));
+    }
+    return x;
+}
+
+float f(float x) {
+    float res = 0;
+    res = exp(x)+x;
+    return res;
+}
+
+float df(float x) {
+    float res = 0;
+    res = exp(x)+1;
+    return res;
+}
+
+float absoluto(float x) {
+    float res = 0;
+    if (x<0)
+        res = -x;
+    return res;
 }
