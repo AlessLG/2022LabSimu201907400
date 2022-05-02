@@ -1,5 +1,6 @@
 /*
-Autor:          aless
+Autor:          Alessandro Lavagnino González
+Carnet:         201907400
 Fecha:          04/25/22
 Compilador:     gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
 Compilado:      gcc -o NewtonRaphson.out NewtonRaphson.c -lm && ./NewtonRaphson.out
