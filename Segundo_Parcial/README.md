@@ -22,12 +22,22 @@ La ecuación que se usa para el algoritmo es:
 </p>
 
 ## Abstracción del problema
-### Variables de entrada
+El problema se divide en cinco partes:
+* <a href="#int-main">
+
+El problema se divide en cinco partes: el `main`, la función que realiza el algoritmo de Newton-Raphson, y tres funciones "secundarias". Una valua la función f(x), otra valua la derivada f'(x) y una última devuelve el valor absoluto de un valor de tipo flotante.
+
+### `int main()`
+Aquí se leen las variables que definen cuántas veces se ejecutará el algoritmo y qué respuesta se obtendrá del mismo.
+
+**Variables de entrada**
+
     aprox: Aproximación inicial. Tipo flotante.
     toler: Márgen de error tolerable. Debe ser mayor a cero. Tipo flotante.
     iter: Número máximo de iteraciones. Debe ser mayor a cero. Tipo entero.
-### Variables de salida
-    resultNR: 
+**Variables de salida**
+
+    resultNR: Resultado de la n-ésima iteración de N-R. Tipo flotante.
 
 Podemos usar una función que tome las condiciones
 El método necesita que el usuario ingrese una primera aproximación
