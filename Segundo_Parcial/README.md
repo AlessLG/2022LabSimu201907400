@@ -54,7 +54,7 @@ Variables de salida:
 Esta funcion ejecuta la ecuación de Newton-Raphson hasta que:
 * Se hayan cumplido las `N` iteraciones. 
 * El resultado de una iteración esté dentro del margen de error `e`
-
+También se encarga de imprimir la tabla que se muestra en la terminal.
 <details>
 <summary> <b> Variables </b> </summary>
 
