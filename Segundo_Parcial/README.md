@@ -30,19 +30,19 @@ El programa se divide en cinco partes:
 * <a href="#float-absolutofloat-x">`float absoluto(float x)`</a>
 
 ### `int main()`
-Primero se leen las variables que se usaran en la función `float NewtonRaphson()`. Se exigen ciertas condiciones para el valor de estas.
+Primero se leen las variables que se usaran en la función `float NewtonRaphson()`. Se exigen ciertas condiciones para el valor de estas.    
 Luego, se determina si el resultado que devolvió la función cumple las condiciones que se le impusieron. Si sí las cumple, se imprime y se muestra su margen de error. Si no, se muestra un mensaje de error.
 
 **Variables de entrada**
 
-    aprox: Aproximación inicial. Tipo flotante.
-    toler: Márgen de error tolerable. Debe ser mayor a cero. Tipo flotante.
-    iter: Número máximo de iteraciones. Debe ser mayor a cero. Tipo entero.
+    • aprox: Aproximación inicial. Tipo flotante.
+    • toler: Márgen de error tolerable. Debe ser mayor a cero. Tipo flotante.
+    • iter: Número máximo de iteraciones. Debe ser mayor a cero. Tipo entero.
 **Variables de salida**
 
-    resultNR: Resultado de la n-ésima iteración de N-R. Tipo flotante.
-    absoluto(f(resultNR): Margen de error del resultado. Tipo flotante.
-    "mensaje de error con el número de iteraciones realizadas".
+    • resultNR: Resultado de la n-ésima iteración de N-R. Tipo flotante.
+    • absoluto(f(resultNR): Margen de error del resultado. Tipo flotante.
+    • "mensaje de error con el número de iteraciones realizadas".
 
 Podemos usar una función que tome las condiciones
 El método necesita que el usuario ingrese una primera aproximación
