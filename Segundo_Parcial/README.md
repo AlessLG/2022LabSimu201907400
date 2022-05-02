@@ -22,13 +22,32 @@ La ecuación que se usa para el algoritmo es:
 </p>
 
 ## Abstracción del problema
-El problema se divide en cinco partes:
-* <a href="#int-main">
-
-El problema se divide en cinco partes: el `main`, la función que realiza el algoritmo de Newton-Raphson, y tres funciones "secundarias". Una valua la función f(x), otra valua la derivada f'(x) y una última devuelve el valor absoluto de un valor de tipo flotante.
+El programa se divide en cinco partes:
+* <a href="#int-main">`int main()`</a>
+* <a href="#float-newtonraphsonfloat-xant-float-e-int-n">`float NewtonRaphson(float xant, float e, int N)`</a>
+* <a href="#float-ffloat-x">`float f(float x)`</a>
+* <a href="#float-dffloat-x">`float df(float x)`</a>
+* <a href="#float-absolutofloat-x">`float absoluto(float x)`</a>
 
 ### `int main()`
-Aquí se leen las variables que definen cuántas veces se ejecutará el algoritmo y qué respuesta se obtendrá del mismo.
+Primero se leen las variables que se usaran en la función `float NewtonRaphson()`. Se exigen ciertas condiciones para el valor de estas.
+Luego, se determina si el resultado que devolvió la función cumple las condiciones que se le impusieron. Si sí las cumple, se imprime y se muestra su margen de error. Si no, se muestra un mensaje de error.
+
+**Variables de entrada**
+
+    aprox: Aproximación inicial. Tipo flotante.
+    toler: Márgen de error tolerable. Debe ser mayor a cero. Tipo flotante.
+    iter: Número máximo de iteraciones. Debe ser mayor a cero. Tipo entero.
+**Variables de salida**
+
+    resultNR: Resultado de la n-ésima iteración de N-R. Tipo flotante.
+    absoluto(f(resultNR): Margen de error del resultado. Tipo flotante.
+    "mensaje de error con el número de iteraciones realizadas".
+
+Podemos usar una función que tome las condiciones
+El método necesita que el usuario ingrese una primera aproximación
+
+### `float NewtonRaphson(float xant, float e, int N)`
 
 **Variables de entrada**
 
@@ -39,7 +58,30 @@ Aquí se leen las variables que definen cuántas veces se ejecutará el algoritm
 
     resultNR: Resultado de la n-ésima iteración de N-R. Tipo flotante.
 
-Podemos usar una función que tome las condiciones
-El método necesita que el usuario ingrese una primera aproximación
+### `float f(float x)`
+**Variables de entrada**
+
+    x
+**Variables de salida**
+
+    x
+
+### `float df(float x)`
+**Variables de entrada**
+
+    x
+**Variables de salida**
+
+    x
+
+### `float absoluto(float x)`
+**Variables de entrada**
+
+    x
+**Variables de salida**
+
+    x
+
+
 ## Diagrama de flujo
 
