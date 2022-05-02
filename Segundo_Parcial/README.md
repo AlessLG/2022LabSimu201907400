@@ -33,54 +33,87 @@ El programa se divide en cinco partes:
 Primero se leen las variables que se usaran en la función `float NewtonRaphson()`. Se exigen ciertas condiciones para el valor de estas.    
 Luego, se determina si el resultado que devolvió la función cumple las condiciones que se le impusieron. Si sí las cumple, se imprime y se muestra su margen de error. Si no, se muestra un mensaje de error.
 
-**Variables de entrada**
+<details>
+<summary> <b> Variables </b> </summary>
+
+
+Variables de entrada:
 
     • aprox: Aproximación inicial. Tipo flotante.
     • toler: Márgen de error tolerable. Debe ser mayor a cero. Tipo flotante.
     • iter: Número máximo de iteraciones. Debe ser mayor a cero. Tipo entero.
-**Variables de salida**
+    
+Variables de salida:
 
     • resultNR: Resultado de la n-ésima iteración de N-R. Tipo flotante.
-    • absoluto(f(resultNR): Margen de error del resultado. Tipo flotante.
+    • absoluto(f(resultNR): Margen de error del resultado. Tipo flotante. Utiliza dos funciones.
     • "mensaje de error con el número de iteraciones realizadas".
-
-Podemos usar una función que tome las condiciones
-El método necesita que el usuario ingrese una primera aproximación
+</details>
 
 ### `float NewtonRaphson(float xant, float e, int N)`
+Esta funcion ejecuta la ecuación de Newton-Raphson hasta que:
+* Se hayan cumplido las `N` iteraciones. 
+* El resultado de una iteración esté dentro del margen de error `e`
 
-**Variables de entrada**
+<details>
+<summary> <b> Variables </b> </summary>
 
-    aprox: Aproximación inicial. Tipo flotante.
-    toler: Márgen de error tolerable. Debe ser mayor a cero. Tipo flotante.
-    iter: Número máximo de iteraciones. Debe ser mayor a cero. Tipo entero.
-**Variables de salida**
+Variables de entrada:
+    
+    Esta función recibe las variables de int main(). Hace la correspondencia:
+    • aprox > xant
+    • toler > e
+    • iter > N
+    • x: Variable local que almacena el resultado de cada iteración. Tipo flotante
+    • i: Variable de conteo. Tipo entero.
 
-    resultNR: Resultado de la n-ésima iteración de N-R. Tipo flotante.
+Variables de salida:
+
+    • x: Regresa la misma variable que usa para hacer los cálculos, una vez terminan.
+</details>
 
 ### `float f(float x)`
-**Variables de entrada**
+
+<details>
+<summary> <b> Variables </b> </summary>
+
+Variables de entrada:
 
     x
-**Variables de salida**
+
+Variables de salida:
 
     x
+</details>
 
 ### `float df(float x)`
-**Variables de entrada**
+
+
+<details>
+<summary> <b> Variables </b> </summary>
+
+Variables de entrada:
 
     x
-**Variables de salida**
+
+Variables de salida:
 
     x
+</details>
 
 ### `float absoluto(float x)`
-**Variables de entrada**
+
+<details>
+<summary> <b> Variables </b> </summary>
+
+Variables de entrada:
 
     x
-**Variables de salida**
+
+Variables de salida:
 
     x
+</details>
 
 
 ## Diagrama de flujo
