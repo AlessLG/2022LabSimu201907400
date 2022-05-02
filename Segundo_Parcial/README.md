@@ -22,6 +22,12 @@ La ecuación que se usa para el algoritmo es:
 </p>
 
 ## Abstracción del problema
+### Variables de entrada
+    aprox: Aproximación inicial. Tipo flotante.
+    toler: Márgen de error tolerable. Debe ser mayor a cero. Tipo flotante.
+    iter: Número máximo de iteraciones. Debe ser mayor a cero. Tipo entero.
+### Variables de salida
+    resultNR: 
 
 Podemos usar una función que tome las condiciones
 El método necesita que el usuario ingrese una primera aproximación
