@@ -51,7 +51,7 @@ Dentro de esta carpeta se documentaran y se mostrará el código de los problema
     gcc -o problema5.out problema5.c && ./problema5.out
 
 ## Problema 6
-![Problema6](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P6.png)
+![Problema6](/2022LabSimu201907400/Problemas_Programacion/Imagenes/P6_modificado.png)
 ### Variables de entrada:
     FM: Contiene el número de vértices del polígono.
     N: No es necesaria, pero facilita la comprensión de la matemática. Representa la longitud del arreglo, contando desde cero.
