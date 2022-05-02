@@ -16,7 +16,10 @@ Tres condiciones definen cuántas veces se ejecuta el algoritmo:
 * Que tan buena es la primera aproximación.
 
 La ecuación que se usa para el algoritmo es:
-<img src="Segundo_Parcial/Imagenes/Ecuación_NR.png" alt="Ecuación_NR" width="200"/>
+
+<p align="center">
+<img src="https://github.com/AlessLG/2022LabSimu201907400/blob/18ab145f934395e339c283a73fc569289be33eaf/Segundo_Parcial/Imagenes/Ecuaci%C3%B3n_NR.png" alt="Ecuación_NR" width="300"/>
+</p>
 
 ## Abstracción del problema
 
