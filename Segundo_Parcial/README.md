@@ -18,7 +18,7 @@ Tres condiciones definen cuántas veces se ejecuta el algoritmo:
 La ecuación que se usa para el algoritmo es:
 
 <p align="center">
-<img src="https://github.com/AlessLG/2022LabSimu201907400/blob/f1dc2f861c7fc702d9c0cd13ce1694f24a4e2f5f/Segundo_Parcial/Imagenes/Ecuaci%C3%B3n_NR3.png" alt="Ecuación_NR" width="300"/>
+<img src="https://github.com/AlessLG/2022LabSimu201907400/blob/f1dc2f861c7fc702d9c0cd13ce1694f24a4e2f5f/Segundo_Parcial/Imagenes/Ecuaci%C3%B3n_NR3.png" alt="Ecuación_NR" width="260"/>
 </p>
 
 ## Abstracción del problema
