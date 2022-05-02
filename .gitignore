@@ -1,20 +1,20 @@
-# Ignorar la carpeta Imagenes
+# Carpeta Imagenes de /Problemas_Programacion/
 /Problemas_Programacion/Imagenes
 
-# Ignorar archivos .out de la carpeta de Problemas_Programacion
+# Archivos .out de la carpeta de /Problemas_Programacion/
 /Problemas_Programacion/*.out
 
-# Ignorar archivos .out de la carpeta de Segundo_Parcial
+# Archivos .out de la carpeta /Segundo_Parcial/
 /Segundo_Parcial/*.out
 
-# Ignorar el generador de archivos de C
+# Generador de archivos de C
 filegen.sh
 
-# Ignorar archivos gnuplot momentaneamente
+# Archivos gnuplot momentaneamente
 /Segundo_Parcial/Grafica exp(x)+x.pdf
 /Segundo_Parcial/Grafica exp(x)+x.tex
-/Segundo_Parcial/*.jpg
 /Segundo_Parcial/*.gp
-
-/Segundo_Parcial/NewtonRaphsonMaynor.c
 /Segundo_Parcial/DatosP1
+
+# Imagenes específicas de la carpeta /Segundo_Parcial/Imagenes/
+/Segundo_Parcial/Imagenes/Grafica exp(x)+x.jpg
