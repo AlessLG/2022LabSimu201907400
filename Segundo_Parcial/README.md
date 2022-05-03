@@ -1,5 +1,28 @@
 ### Número de carnet: 201907400
 # Problema 1: Producción agrícola
+## Enunciado
+Guatemala es un alto productor de cardamomo, por lo que se ha documentado de forma anual el valor del cultivo en miles de quetzales.
+<table><thead><tr><th>Año</th><th>Valor total</th></tr></thead><tbody><tr><td>2013</td><td>660.0</td></tr><tr><td>2014</td><td>671.4</td></tr><tr><td>2015</td><td>668.0</td></tr><tr><td>2016</td><td>695.5</td></tr><tr><td>2017</td><td>717.1</td></tr><tr><td>2018</td><td>759.2</td></tr><tr><td>2019</td><td>807.0</td></tr><tr><td>2020</td><td>859.7</td></tr></tbody></table>
+
+Genere un programa el cual cumpla con las siguientes condiciones:
+* Una gráfica que compare los valores tabulados y la recta que mejor aproxima el crecimiento en las ganancias.
+* Estime la ganancia que se obtendrá en el presente año. Compárelo con la estimación del gobierno el cual es de Q920,100, explique la diferencia.
+
+## Metodología
+
+
+## Abstracción del problema
+## Diagrama de flujo
+## Respuestas
+
+    Según la regresión lineal, en el año 2022 el precio de los cultivos debería de rondar los Q884.9 mil. Una diferencia de Q35.2 mil.
+    No es exagerada, pero puede deberse a que los precios de los cultivos han subido consistentemente desde el 2017. Hecho al cual la
+    recta no se ajusta, seguramente por ser tan reciente.
+    
+<p align="center">
+<img src="https://github.com/AlessLG/2022LabSimu201907400/blob/45fdf87d7d4df3e7e36b63a49c97c07b99cf09e1/Segundo_Parcial/Imagenes/Valor_Cardamomo.jpg" alt="Valor cardamomo" width="500"/>
+</p>
+
 
 # Problema 2: Newton-Raphson
 ## Enunciado
