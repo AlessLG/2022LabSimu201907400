@@ -33,10 +33,10 @@ El programa se divide en cinco partes:
 Primero se leen las variables que se usaran en la función `float NewtonRaphson()`. Se exigen ciertas condiciones para el valor de estas.    
 Luego, se determina si el resultado que devolvió la función cumple las condiciones que se le impusieron. Si sí las cumple, se imprime y se muestra su margen de error. Si no, se muestra un mensaje de error.
 
+---
 <details>
 <summary> <b> Variables </b> </summary>
-
-
+</br>
 Variables de entrada:
 
     • aprox: Aproximación inicial. Tipo flotante.
@@ -50,14 +50,21 @@ Variables de salida:
     • "mensaje de error con el número de iteraciones realizadas".
 </details>
 
+---
+
 ### `float NewtonRaphson(float xant, float e, int N)`
 Esta funcion ejecuta la ecuación de Newton-Raphson hasta que:
+
 * Se hayan cumplido las `N` iteraciones. 
-* El resultado de una iteración esté dentro del margen de error `e`
+* El resultado de una iteración esté dentro del margen de error `e`.
+
 También se encarga de imprimir la tabla que se muestra en la terminal.
+
+---
 <details>
 <summary> <b> Variables </b> </summary>
-
+</br>
+    
 Variables de entrada:
     
     Esta función recibe las variables de int main(). Hace la correspondencia:
@@ -70,51 +77,23 @@ Variables de entrada:
 Variables de salida:
 
     • x: Regresa la misma variable que usa para hacer los cálculos, una vez terminan.
+
 </details>
+
+---
 
 ### `float f(float x)`
-
-<details>
-<summary> <b> Variables </b> </summary>
-
-Variables de entrada:
-
-    x
-
-Variables de salida:
-
-    x
-</details>
+Valua el valor ingresado `x` en la función `exp(x)+x` y lo devuelve en la misma variable.
 
 ### `float df(float x)`
-
-
-<details>
-<summary> <b> Variables </b> </summary>
-
-Variables de entrada:
-
-    x
-
-Variables de salida:
-
-    x
-</details>
+Valua el valor ingresado `x` en la función `exp(x)+1` y lo devuelve en la misma variable.
 
 ### `float absoluto(float x)`
-
-<details>
-<summary> <b> Variables </b> </summary>
-
-Variables de entrada:
-
-    x
-
-Variables de salida:
-
-    x
-</details>
+Comprueba si el valor ingresado `x` es menor a cero.    
+Si es mayor a cero, lo regresa sin cambios. Si es menor a cero, lo cambia a positivo y lo regresa en la misma variable.
 
 
 ## Diagrama de flujo
-
+<p align="center">
+<img src="https://github.com/AlessLG/2022LabSimu201907400/blob/bcbf89d5f462805efdc082ba190fd175889bf0c8/Segundo_Parcial/Imagenes/Diagrama_de_flujoP2.png" alt="Diagramas de Flujo Problema 2" width="1000"/>
+</p>
