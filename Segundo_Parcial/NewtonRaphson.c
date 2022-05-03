@@ -14,7 +14,7 @@ Resumen:        Este programa
 
 float f(float x);
 float df(float x);
-float NewtonRaphson(float x, float e, int N);
+float NewtonRaphson(float xant, float e, int N);
 float absoluto(float x);
 
 int main() {
