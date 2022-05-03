@@ -97,3 +97,16 @@ Si es mayor a cero, lo regresa sin cambios. Si es menor a cero, lo cambia a posi
 <p align="center">
 <img src="https://github.com/AlessLG/2022LabSimu201907400/blob/bcbf89d5f462805efdc082ba190fd175889bf0c8/Segundo_Parcial/Imagenes/Diagrama_de_flujoP2.png" alt="Diagramas de Flujo Problema 2" width="1000"/>
 </p>
+
+## Respuestas
+    x = -0.567143 cuando f(x)=0
+
+**Gráfica generada por gnuplot:**
+<p align="center">
+<img src="https://github.com/AlessLG/2022LabSimu201907400/blob/0a7a132c9bb607edaa9ebca2ace8341b2ef77e36/Segundo_Parcial/Imagenes/Grafica_exp(x)+x.jpg" alt="Gráfica generada por gnuplot" width="500"/>
+</p>
+
+**Gráfica aumentada generada por gnuplot:**
+<p align="center">
+<img src="https://github.com/AlessLG/2022LabSimu201907400/blob/0a7a132c9bb607edaa9ebca2ace8341b2ef77e36/Segundo_Parcial/Imagenes/Grafica_aumentada_exp(x)+x.jpg" alt="Gráfica aumentada generada por gnuplot" width="500"/>
+</p>
