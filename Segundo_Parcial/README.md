@@ -98,7 +98,7 @@ Si es mayor a cero, lo regresa sin cambios. Si es menor a cero, lo cambia a posi
 <img src="https://github.com/AlessLG/2022LabSimu201907400/blob/bcbf89d5f462805efdc082ba190fd175889bf0c8/Segundo_Parcial/Imagenes/Diagrama_de_flujoP2.png" alt="Diagramas de Flujo Problema 2" width="1000"/>
 </p>
 
-## Respuetas
+## Respuestas
     x = -0.567143 cuando f(x)=0
 
 **Gráfica generada por gnuplot:**
