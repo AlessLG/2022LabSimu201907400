@@ -4,5 +4,5 @@
 # Archivos .out de la carpeta /Segundo_Parcial/
 /Segundo_Parcial/*.out
 
-# Generador de archivos de C
-filegen.sh
+# Archivos .out de la carpeta /Laboratorio_4/
+/Laboratorio_4/*.out
