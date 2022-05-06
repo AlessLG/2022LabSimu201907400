@@ -26,6 +26,12 @@ Donde estos están dados por las fórmulas:
 ## Abstracción del problema
 Con una tabla de datos de 2 columnas (como con la que contamos), podemos interpretar los valores de cada fila como pares ordenados. Los cuales podemos colocar en un plano cartesiano. Luego, podemos usar el método de mínimos cuadrados para encontrar la ecuación de la recta que mejor se ajuste, y poder predecir la tendencia de los datos de nuestra gráfica.
 
+El programa se divide en cuatro partes:
+* <a href="#int-main-problema-1">`int main()` Problema 1</a>
+* <a href="#void-imprimir">`void imprimir()`</a>
+* <a href="#float-suma">`float suma()`</a>
+* <a href="#float-sumamulti">`float sumaMulti()`</a>
+
 ### `int main()` Problema 1
 Dados los valores almacenados en los vectores descritos en el código. Se calcula `b`, `m` y `r`.    
 Se pide al usuario además, un año al que quiera estimar el valor de los cultivos.
