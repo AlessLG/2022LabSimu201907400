@@ -1,4 +1,2 @@
-# Repositorio GitHub
-## Laboratorio de Simulación, S1 - 2022
-### Alessandro Lavagnino
-### 201907400
+# Laboratorio de Simulación, S1 - 2022
+### 201907400 - Alessandro Lavagnino G.
