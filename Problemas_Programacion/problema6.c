@@ -22,7 +22,7 @@ int main() {
 
     puts("--------------------------------");
     puts("Ingrese las coordenadas de los vértices del polígono.");
-    puts(" • Separe las entradas de las coordenadas por un espacio o un enter. Y las coordenadas por enters.");
+    puts(" • Ingrese las entradas de las coordenadas (deben ser dos) separadas por un espacio o un enter. Luego presione enter e ingrese nuevamente dos entradas.");
     puts(" • Deben ser números enteros.");
     puts(" • Las coordenadas deben de ser ingresadas ordenadamente, de tal forma que vayan en contra de las manecillas del reloj.");
     puts(" • El cálculo no funciona si el polígono se intersecta a si mismo o si tiene agujeros.");
