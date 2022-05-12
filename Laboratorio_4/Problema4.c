@@ -4,7 +4,7 @@ Carnet:         201907400
 Fecha:          2022/05/06
 Compilador:     gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
 Compilado:      gcc -o Problema4.out Problema4.c -lm && ./Problema4.out
-Librerias:      stdio
+Librerias:      stdio, math
 Resumen:        Este programa lee dos matrices y una constante y realiza una serie de cálculos con ellas.
 */
 
