@@ -51,10 +51,10 @@ int main() {
     puts("Ingrese una letra 'a' si lo quiere visualizar de forma ascendente, y una 'd' si lo quiere de forma descendente.");
     scanf("%c", &orden);
     if ((orden!='a') && (orden != 'd')) {
-        do {
+        while (orden!='a' && orden!='d') {
             printf("La letra no es válida: ");
             scanf("%c", &orden);
-        } while (orden!='a' && orden!='d');
+        }
     }
     if (orden=='a') {
         // Se inicializa variable.
